@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    Hello this my Mortyapp
   </div>
 </template>
