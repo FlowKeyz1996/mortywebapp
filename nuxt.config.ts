@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/apollo'],
+    modules: ['@nuxtjs/apollo', '@nuxtjs/tailwindcss', '@nuxt/image-edge'],
+
 
     apollo: {
           clients: {
@@ -9,4 +10,8 @@ export default defineNuxtConfig({
         }
       },
     },
+
+   image: {
+    domains: ['rickandmortyapi.com/']
+   }
 })
