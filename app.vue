@@ -1,5 +1,5 @@
 <template>
-  <p>{{ data }}</p>
+  <p class="text-xl">{{ data }}</p>
 </template>
 <script lang="ts" setup>
 const query = gql`
