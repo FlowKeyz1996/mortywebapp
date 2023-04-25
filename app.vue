@@ -1,5 +1,5 @@
 <template>
-  <div> 
+  <div class="flex flex-wrap"> 
 
    <CharacterCard v-for="{id, name, image, status, species, location } in data.characters.results" 
    :id="id"
